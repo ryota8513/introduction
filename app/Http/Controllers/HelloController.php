@@ -24,37 +24,32 @@ class HelloController extends Controller
         $contacts->save();
         return view('contact');
     }
-    
+
     public function contact(){
         return view('contact');
     }
 
    
-    public function store(Request $request)
+    public function store()
     {
         //
     }
 
     
-    public function show(User $user)
+  
+    public function edit()
     {
         //
     }
 
    
-    public function edit(User $user)
+    public function update()
     {
         //
     }
 
    
-    public function update(Request $request, User $user)
-    {
-        //
-    }
-
-   
-    public function destroy(User $user)
+    public function destroy()
     {
         //
     }
