@@ -13,177 +13,87 @@
     <div class="nav">
     <ul class="right-nav">
         <li><a href="#">トップ</li>
-        <li><a href="#">about</li>
-        <li><a href="#">work</li>
-        <li><a href="#">contact</li>
+        <li><a href="#sec1">about</a></li>
+        <li><a href="#sec2">work</a></li>
+        <li><a href="#sec3">contact</a></li>
       </ul>
     </div>
   </header>
-  <div class="warapper">
+  <div class="content">
+    <div class="warapper">
       <h1>welcome to my portfolio</h1>
+    </div>
   </div>
-  <div class="top-warapper">
-    <h1>profile</h1>
-    <div class="left-content">
-
-     <div class="content">
-      <div class="date">
-        <p>平成8年5月13日</P>
-      </div> 
-      <div class="textarea">
-        <p>北海道倶知安町に生誕</p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>少年時代</p>
-      </div> 
-      <div class="textarea">
-      <p> 小学生時代は野球,柔道<br>中学生時代は卓球部へ入部</p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>高校時代</p>
-      </div> 
-      <div class="textarea">
-        <p>農業高校に進学<br>
-           畑仕事、家畜の世話、商品加工の毎日を送る
-        </p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>専門学生時代</p>
-      </div> 
-      <div class="textarea">
-        <p>自動車整備士になるために進学</p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>社会人時代</p>
-      </div> 
-      <div class="textarea">
-        <p>無事に国家資格取得後、<br>
-           地元のディーラーに就職</p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>社会人4年目</p>
-      </div> 
-      <div class="textarea">
-        <p>退職そして留学へ<br>
-           昔から興味があった為留学を決意<br>
-           　　　　　　　　　　　　フィリピン&オーストラリア
-        </p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>留学生活</p>
-      </div> 
-      <div class="textarea">
-        <p>念願の留学生活<br>
-        人生で一番楽しい時を過ごす。<br>
-        　　　　　　　　　　　　しかし、コロナウイルスが発生。<br>
-        　　　　　　　　　　　　2ヶ月で無念の帰国
-      </p>
-      </div>
-  </div>
-
-     <div class="content">
-      <div class="date">
-        <p>帰国後から現在まで</p>
-      </div> 
-      <div class="textarea">
-        <p>帰国後は、群馬県で車の製造会社で勤務。オンラインスクールでプログラミングを勉強中</p>
-      </div>
-</div>
- </div>
-
- <div class="right-content">
- <img class="photo" src="{{asset('/image/self.jpg')}}" alt="顔写真">
- <div class="content1">
-   <div class="content-left">
-  <h2>趣味</h2>
-  <div class="hobby">
-  <h3>海外旅行</h3>
-  <span class="flag-icon flag-icon-tw fa-2x"></span>
-  <span class="flag-icon flag-icon-kr fa-2x"></span>
-  <span class="flag-icon flag-icon-hk flag-icon-squared fa-2x"></span>
-  <span class="flag-icon flag-icon-mo flag-icon-squared fa-2x"></span>
-  <span class="flag-icon flag-icon-kh flag-icon-squared fa-2x"></span>
-  <span class="flag-icon flag-icon-gu flag-icon-squared fa-2x"></span>
-  <span class="flag-icon flag-icon-ph flag-icon-squared fa-2x"></span>
-  <h3>音楽、映画鑑賞</h3>
-  <h3>温泉</h3>
-  <h3>釣り</h3>
-</div>
-</div>
-
-  <div class="content-right">
-  <h2>スキル</h2>
-  <div class="skil">
-  <h3 class="skil-icon"><i class="fab fa-html5 fa-3x"></i></h3>
-  <h3 class="skil-icon"><i class="fab fa-css3-alt fa-3x"></i></h3>
-  <h3 class="skil-icon"><i class="fab fa-js-square fa-3x"></i></h3>
-  <h3 class="skil-icon"><i class="fab fa-php fa-3x"></i></h3>
   
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="middle-warapper">
-  <h1>work</h1>
- <div class="works">
-    <a href="#">
-     <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
-    </a>
-    <p>work1</p>
+  <div class="content">
+   <div id="sec1">
+    <h1>About Me</h1>
+ <img class="photo" src="{{asset('/image/self.jpg')}}" alt="顔写真">
+ <div class="about-content"> 
+ <h2>畑本亮太</h2>
+ <p>1996.5.13</p>
+ <div class="text">
+     <p>北海道の倶知安町出身。<br>
+     専門学校卒業後、地元のディーラーで整備士として勤務<br>
+     将来自由に場所にとらわれることなく働きたいと思い、<br>
+     プログラミンを勉強。現在に至る</p>
  </div>
- <div class="works">
-    <a href="#">
-     <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
-    </a>
-    <p>work1</p>
+ <h2>スキル</h2>
+ <div class="skill"> 
+    <img class="icon" src="{{asset('/image/html.png')}}" alt="html写真">
+    <img class="icon" src="{{asset('/image/css.png')}}" alt="css写真">
+    <img class="icon" src="{{asset('/image/js.png')}}" alt="js写真">
+    <img class="icon" src="{{asset('/image/php.png')}}" alt="php写真">
  </div>
- <div class="works">
-    <a href="#">
-     <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
-    </a>
-    <p>work1</p>
- </div><br>
- <div class="works">
-    <a href="#">
-     <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
-    </a>
-    <p>work1</p>
+  </div>
+  </div>
  </div>
- <div class="works">
-    <a href="#">
-     <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
-    </a>
-    <p>work1</p>
- </div>
- <div class="works">
-    <a href="#">
-     <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
-    </a>
-    <p>work1</p>
- </div>
-</div>
-
-<div class="bottom-warapper">
+ 
+<div class="content">
+  <div id="sec2">
+    <h1>Work</h1>
+    <div class="work-content">
+    
+      <div class="works">
+      <a href="#">
+       <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
+      </a>
+      <p>work1</p>
+     </div>
+     <div class="works">
+      <a href="#">
+       <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
+      </a>
+      <p>work1</p>
+     </div>
+     <div class="works">
+      <a href="#">
+       <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
+      </a>
+      <p>work1</p>
+     </div>
+     <div class="works">
+      <a href="#">
+       <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
+      </a>
+      <p>work1</p>
+     </div>
+     <div class="works">
+      <a href="#">
+       <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
+      </a>
+      <p>work1</p>
+     </div>
+     <div class="works">
+      <a href="#">
+       <img class="work" src="{{asset('/image/work.jpg')}}" alt="仕事写真">
+      </a>
+      <p>work1</p>
+      </div>
+     </div>
+    </div>
+<div class="content">
+ <div id="sec3">
   <h1>contact</h1>
   <form name="form" method="POST" action="contacts">
  <div class="Form">
@@ -204,13 +114,18 @@
     <textarea class="Form-Item-Textarea"></textarea>
   </div>
   <input type="submit" class="Form-Btn" value="送信する">
-</form>
+  </form>
+  </div>
+ </div>
 </div>
 </div>
 <div class="footer">
-<p>@2021portfolio</p>
+<p>@2021 Ryota Hatamoto</p>
 </div>
 
 </body>
 </html>
+
+
+
 
